@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="navigation">
+        <h3>BOULDER</h3>
+        <div id="navigation-child"><h5>HOME</h5>
+        <h5>ABOUT</h5>
+        <h5>LIBRARY</h5>
+        <h5>MORE INFO</h5>
+        <h5>TEAM</h5>
+        </div>
+        <button>JOIN NOW</button>
+    </div>
+    <div id="main-block">
+         <h5>MAKE WEBSITE THAT STAND OUT</h5>
+         <div id="block">
+            <h1>PLAY STRONG</h1>
+        </div>
+         
+    </div>
+    <img src="/pic.png" alt="tennis" />
+    <div id="last">
+        
+        <h3 id="last-child">BUILDING CHAMPIONS</h3>
+        <h3>ON AND OFF THE COURT</h3>
+        <div id="latest-child">
+            <button >EXPLORE PROGRAMS</button>
+        </div>
+        
+    </div>
+</body>
+<style>
+ h3{
+    font-weight: bold;
+ }  
+ #navigation{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 10px;
+ }
+#navigation-child{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 12px;
+
+} 
+button{
+    background-color: #EC2F33;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+    border:1px solid #EC2F33;
+    color:#FFFFFF ;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    background-color: #2C98D6;
+    height: 100vh;
+}
+#block{
+    font-size: 90px;
+    font-weight: bolder;
+}
+#last-child{
+    border-top: 3px solid #EC2F33 ;
+    width: 50%;
+    padding-top: 30px;
+}
+#last{
+    width: 33%;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+#last h3{
+    margin: 0;
+}
+#latest-child button{
+    border-radius: 5px;
+    margin-top: 15px;
+}
+img{
+    position: absolute;
+    top: 100px;
+    width: 90%;
+}
+#main-block h5{
+    margin: 0;
+}
+#block h1{
+    margin: 0;
+}
+#main-block{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+</style>
+</html>
