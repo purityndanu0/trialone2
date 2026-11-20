@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="navigation">
+        <h4>FEEDBACK</h4>
+        <div id="navigation-child">
+            <h5>LINEUP</h5>
+            <h5>CATALOQUE</h5>
+            <h5>INFO</h5>
+        </div>
+        <button>GET DEALS NOW</button>
+    </div>
+    <div id="main-block">
+        <div id="block-child1">
+            <h1>LOUDER</h1>
+        </div>
+        <h1>AFTER DARK</h1>
+    </div>
+    <img src="co.png" alt="concert">
+</body>
+<style>
+    body{
+        background-color: #3EFF04;
+    }
+    h4{
+        font-weight: bolder;
+    }
+    #navigation{
+        display: flex;
+        flex-direction: row;
+        gap: 300px;
+        margin-left: 30px;
+    }
+    #navigation-child{
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        padding-left: 40px;
+    }
+    button{
+        background-color: #110F0E;
+        color: rgb(219, 209, 209);
+        border: 1px;
+        border-radius: 20px;
+        padding-top: 0.5px;
+        padding-bottom: 0.5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #main-block{
+        font-weight: bolder;
+        font-size: 80px;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: 30px;
+        text-align: center;
+        width:100% ;
+        margin: 0;
+        line-height: 34px;
+    }
+    #block-child1{
+        margin-left: 90px;
+    }
+    img{
+        position: absolute;
+        top: 100px;
+        width: 100%;
+    }
+</style>
+</html>

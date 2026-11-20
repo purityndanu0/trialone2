@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Chivo:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navigation">
+        <div id="navigation-child">
+            <h4>Canopy</h4>
+        </div>
+        <div id="items">
+        <h5>Plants</h5>
+        <h5>Pots</h5>
+        <h5>Care guides</h5>
+        <h5>Gifting</h5>
+        </div>
+        
+        <button>Cart</button>
+    </div>
+    <div id="container">
+        <!-- LEFT DIV -->
+        <div id="left-container">
+            <div id="container-child">
+                <h6>NEW ARRIVALS. SPRING 26</h6>
+                <h1>Bring the <br> Room <span>alive</span></h1>
+            </div>
+                
+            
+            <div id="sub-body">
+                <p>Hand picked houseplants, potted and deliverd within 48 hours, with care notes written for your light.</p>
+            </div>
+            <div id="second-last">
+                <button>Shop Plants</button>
+                <a href="/">Browse Selection</a>
+            </div>
+            <div id="last">
+                <h5>4.9</h5>
+                <h5>8,400 reviews</h5>
+                <h5>Free Returns</h5>
+                <h5>Grower Direct</h5>
+            </div>
+        </div>
+        <!-- RIGTH DIV -->
+         <img src="leaf.png" alt="leaf">
+        </div>
+</body>
+<style>
+    body{
+        background-color: #012B1D;
+        font-family:'Chivo', sans-serif;
+    }
+#navigation{
+    color: #F6FCFA;
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+    justify-content: center;
+    align-items: center;
+}
+#navigation-child{
+    font-weight: 400;
+}
+#items{
+    gap: 60px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: "Chivo", sans-serif;
+}
+button{
+    background-color: #06B06D;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    border: 1px;
+}
+h6{
+    color: #F6FCFA ;
+}
+span{
+    color: #02B36D;
+}
+h1{
+    color:#F6FCFA  ; 
+    font-size: 100px;
+    margin-left: 40px;
+    margin: 0;
+    
+}
+#sub-body{
+    color: #F6FCFA;
+    margin-left: 50px;
+    width: 40%;
+    font-weight: 100;
+}
+#second-last button{
+    background-color: #F76E0A;
+    color: #F6FCFA;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 100px;
+    border: 1px;
+    margin-left: 50px;
+}
+#second-last{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    color:#F6FCFA ;
+    align-items: center;
+}
+#last{
+    display: flex;
+    flex-direction: row;
+    color: #F6FCFA;
+    gap: 50px;
+    margin-left: 50px;
+}
+a{
+    color: #F6FCFA;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+#left-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50vh;
+}
+img{
+    width: 50%;
+}
+#container-child{
+    margin-left: 50px;
+}
+</style>
+</html>
